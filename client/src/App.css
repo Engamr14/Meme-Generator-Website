@@ -1,0 +1,312 @@
+.App {
+  text-align: center;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.vl {
+  border-left: 6px solid #000000;
+  height: 589px;
+  position: absolute;
+  left: 720px;
+  top: 0px;
+}
+
+.TitleFontSize{
+  font-size:32.0pt;
+}
+
+.cardFontSize{
+  font-size:24.0pt;
+}
+
+.DarkPurple{
+  background-color:#000000;
+;
+}
+.buff{
+  background-color:#DAA06D;
+}
+
+.background{
+  background-color:#ececec;
+}
+
+.blackBackground{
+  background-color:black;
+}
+
+.redBackground{
+  background-color:red;
+}
+
+.yellowBackground{
+  background-color:yellow;
+}
+
+.offWhite{
+  background-color:transparent;
+}
+.sticyTaost{
+ position: 'sticky';
+  right: 0px;
+  bottom: 0px;
+}
+
+.cancelButton{
+  position: absolute;
+  left:150px;
+  }
+
+.upButton{
+  position:relative;
+  right: 245px;
+}
+
+.loginButton{
+  position: relative;
+  left: 215px;
+}
+
+.downButton{
+  position:relative;
+  right: 470px;
+}
+
+.ButtonGroup{
+  position: relative;
+  left: 670px;
+}
+
+.changePosOpen{
+  position:relative;
+  left: 135px;
+  bottom: 5px;
+}
+
+.newPos{
+  position: relative;
+  right:40px;
+  bottom:10px;
+ }
+
+.newPos1{
+  position: relative;
+  right:228px;
+ }
+
+.bigIcon{
+  position: absolute;
+  left:600px;
+  top: 160px ;
+}
+
+.formHeader{
+  position: absolute;
+  left:585px;
+  top: 100px ;
+}
+
+.form{
+  position: absolute;
+  top: 350px;
+  left: 550px;
+}
+
+.zIndexFort{
+  z-index: 2;
+}
+.zIndexBack{
+  z-index: -1;
+}
+
+.changePos1{
+position: absolute;
+left: 10px ;
+top: 130px ;
+margin: 200px;
+}
+.newQcard{
+  position: absolute;
+  top: 130px ;
+}
+
+.HorizontalBar{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+}
+
+.changePos5{
+  position: relative;
+  top: 130px ;
+  margin: 200px;
+}
+
+.changePos3{
+  position: absolute;
+  left: 10px ;
+  top: 80px ;
+}
+
+.changePos4{
+  position: absolute;
+  left: 10px ;
+  top: 105px ;
+}
+
+.changePos6{
+  position: relative;
+  left: 170px ;
+}
+
+.changePos7{
+  position: relative;
+  left: 20px ;
+}
+
+  .namebox{
+  position: relative;
+  right: 620px ;
+  bottom: 4px;
+  
+  }
+
+.cardPadding{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.correctPos{
+  position: relative;
+  left: 170px ;
+}
+
+.smallPadding{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Padding1{
+  padding-bottom: 15px;
+}
+
+.PaddingBottom{
+  padding-bottom: 5px;
+}
+
+.PaddingRight{
+  padding-right: 5px;
+}
+
+.leftPadding{
+  padding-left: 50px;
+}
+
+.textAreaPadding{
+  padding-bottom: 10px;
+}
+
+.changePos2{
+  position: relative;
+  left: 110px ;
+  bottom: 10px;
+  }
+
+.Setvheight {
+  min-height: 200vh;
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ******/
+
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.below-nav {
+  padding-top: 6rem;
+}
+
+.below-nav-center {
+  padding-top: 12rem;
+}
+
+/* left filters */
+.list-group-item[id^='filter'] {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+
+.list-group-item.active {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.list-group-item-action:hover {
+  background-color: #9becae;
+}
+
+
+.custom-checkbox .custom-control-input.important:checked~.custom-control-label::before{
+  background-color: red;
+}
+
+.custom-checkbox .custom-control-input.important:focus~.custom-control-label::before{
+  box-shadow:  0 0 0 0.2rem rgb(255, 148, 148);
+}
+
+/* Add new todo button */
+.fixed-right-bottom {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+/* login form group */
+.login-form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
