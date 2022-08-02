@@ -1,5 +1,3 @@
-# Exam #2 : "MemeGenerator"
-## Student: s289417 Alashram Amr
 
 ## React Client Application Routes
 
